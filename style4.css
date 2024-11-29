@@ -1,0 +1,68 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #001F3F; /* Deep navy blue background */
+  color: #FFD700; /* Gold text for elegance */
+}
+
+.header {
+  background-color: #0B3D91; /* Royal blue */
+  color: #FFD700; /* Gold text */
+  text-align: center;
+  padding: 20px;
+  font-size: 2.5rem;
+  border-bottom: 6px solid #C8102E; /* Red trim */
+}
+
+.navbar {
+  background-color: #0B3D91; /* Royal blue */
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #FFD700; /* Gold text for navigation links */
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #C8102E; /* Red background for buttons */
+}
+
+.navbar a:hover {
+  background-color: #FFD700; /* Gold background on hover */
+  color: #0B3D91; /* Blue text on hover */
+}
+
+.main-content {
+  padding: 40px 20px;
+  background-color: #001F3F; /* Deep navy blue */
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.main-content h2 {
+  color: #FFD700; /* Gold headers */
+  border-left: 8px solid #C8102E; /* Red stripe for styling */
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #FFFFFF; /* White text for content */
+}
+
+.footer {
+  background-color: #0B3D91; /* Royal blue */
+  color: #FFD700;
+  text-align: center;
+  padding: 15px;
+  font-size: 1rem;
+  border-top: 6px solid #C8102E; /* Red trim */
+}
