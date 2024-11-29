@@ -1,0 +1,59 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #D2B48C; /* Tan background to reflect uniform color */
+  color: #3E3E3E;
+}
+
+.header {
+  background-color: #5A4D41; /* Olive-brown for header */
+  color: #FFD700; /* Gold text to match embellishments */
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.navbar {
+  background-color: #8B7D6B; /* Lighter olive color for navigation bar */
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #FFD700;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.main-content h2 {
+  color: #5A4D41;
+  border-bottom: 2px solid #FFD700;
+}
+
+.footer {
+  background-color: #5A4D41;
+  color: #FFD700;
+  text-align: center;
+  padding: 10px;
+}
