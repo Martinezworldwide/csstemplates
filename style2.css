@@ -1,39 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marine Corps Dress Blue Style</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header class="header">
-    <h1>Marine Corps Dress Blue Website</h1>
-  </header>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#tradition">Tradition</a></li>
-      <li><a href="#values">Values</a></li>
-      <li><a href="#excellence">Excellence</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <main class="main-content">
-    <section id="tradition">
-      <h2>Tradition</h2>
-      <p>The Marine Corps' iconic dress blues represent a legacy of honor and duty.</p>
-    </section>
-    <section id="values">
-      <h2>Values</h2>
-      <p>Instilled with courage, commitment, and esprit de corps.</p>
-    </section>
-    <section id="excellence">
-      <h2>Excellence</h2>
-      <p>Representing the highest standards of military service.</p>
-    </section>
-  </main>
-  <footer class="footer">
-    <p>&copy; 2024 Marine Corps Dress Blue Website</p>
-  </footer>
-</body>
-</html>
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #001F3F; /* Dark navy blue for background */
+  color: #FFFFFF; /* White text for readability */
+}
+
+.header {
+  background-color: #0B3D91; /* Rich navy blue for header */
+  color: #FFD700; /* Gold text for accents */
+  text-align: center;
+  padding: 20px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  border-bottom: 4px solid #C8102E; /* Red trim for emphasis */
+}
+
+.navbar {
+  background-color: #0B3D91; /* Matching header color */
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #FFD700; /* Gold text for navigation links */
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: #C8102E; /* Red highlight on hover */
+}
+
+.main-content {
+  padding: 40px 20px;
+}
+
+.main-content h2 {
+  color: #FFD700; /* Gold headers */
+  border-left: 6px solid #C8102E; /* Red stripe for styling */
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: #0B3D91;
+  color: #FFD700;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  border-top: 4px solid #C8102E; /* Red trim for footer */
+}
+
