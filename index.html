@@ -3,37 +3,49 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Marine Corps Combat Style</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Marine Corps Uniform Layouts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #F5F5F5;
+      padding: 50px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+    .navigation {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .navigation a {
+      text-decoration: none;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .olive { background-color: #6B8E23; }
+    .blue { background-color: #001F3F; }
+    .combat { background-color: #4B5320; }
+    .another { background-color: #8B4513; }
+    .navigation a:hover {
+      opacity: 0.8;
+    }
+  </style>
 </head>
 <body>
-  <header class="header">
-    <h1>Marine Corps Combat Website</h1>
-  </header>
-  <nav class="navbar">
-    <ul>
-      <li><a href="#mission">Mission</a></li>
-      <li><a href="#gear">Gear</a></li>
-      <li><a href="#training">Training</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-  <main class="main-content">
-    <section id="mission">
-      <h2>Mission</h2>
-      <p>Dedicated to the preservation of freedom and security in all terrains.</p>
-    </section>
-    <section id="gear">
-      <h2>Gear</h2>
-      <p>Equipped with state-of-the-art tools and protective equipment.</p>
-    </section>
-    <section id="training">
-      <h2>Training</h2>
-      <p>Unparalleled readiness through rigorous and adaptive training.</p>
-    </section>
-  </main>
-  <footer class="footer">
-    <p>&copy; 2024 Marine Corps Combat Website</p>
-  </footer>
+  <h1>Marine Corps Uniform Layouts</h1>
+  <p>Click on a layout below to explore:</p>
+  <div class="navigation">
+    <a href="formal.html" class="olive">Olive Green Uniform</a>
+    <a href="dress_blue.html" class="blue">Dress Blue Uniform</a>
+    <a href="combat.html" class="combat">Combat Uniform</a>
+    <a href="another.html" class="another">Another Style</a>
+  </div>
 </body>
 </html>
+
