@@ -1,0 +1,72 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #3B5323; /* Army green background */
+  color: #F5F5DC; /* Beige text for readability */
+}
+
+.header {
+  background-color: #4B5320; /* Dark olive green */
+  color: #F5DEB3; /* Wheat text for contrast */
+  text-align: center;
+  padding: 20px;
+  font-size: 2.5rem;
+  border-bottom: 4px solid #8B4513; /* Saddle brown trim */
+}
+
+.navbar {
+  background-color: #6B8E23; /* Olive drab green */
+  padding: 15px;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #F5DEB3; /* Wheat color for links */
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: #8B4513; /* Saddle brown on hover */
+}
+
+.main-content {
+  padding: 40px 20px;
+  background-color: #556B2F; /* Dark olive green for content area */
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.main-content h2 {
+  color: #FFD700; /* Gold headers for emphasis */
+  border-left: 6px solid #8B4513; /* Saddle brown stripe for styling */
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: #4B5320;
+  color: #F5DEB3;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  border-top: 4px solid #8B4513;
+}
