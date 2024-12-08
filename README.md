@@ -1,2 +1,2 @@
-# collegemajors
-https://martinezworldwide.github.io/collegemajors
+# csstemplates
+https://martinezworldwide.github.io/csstemplates
